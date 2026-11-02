@@ -35,7 +35,7 @@
     <main class="mb-4 col-span-2 max-w-2xl mx-auto p-4" id="inhoud">
         <h1 class="my-2 py-2 donkergroen text-4xl font-bold">Contact</h1>
         <p class="mb-6">Heb je een vraag? Stel ze gerust!</p>
-        <form action="#" method="get" class="grid md:grid-cols-2 gap-4">
+        <form method="POST" name="contact" data-netlify="true" class="grid md:grid-cols-2 gap-4">
             <div>
                 <label for="voornaam">Voornaam</label>
                 <input type="text" name="voornaam" id="voornaam" class="mt-1 w-full rounded-lg border-color-donkergroen background-color-groen px-3 py-2 border-2 focus-visible:outline-2 focus-visible:outline-rose-700">
@@ -46,7 +46,7 @@
             </div>
             <div class="sm:col-span-2">
                 <label for="mail">E-mail <span class="text-red-700" aria-hidden="true">*</span></label>
-                <input type="email" name="mail" id="mail" autocomplete="email" required aria-describedby="mail-hulp" class="peer mt-1 w-full rounded-lg user-invalid:border-red-700 border-color-donkergroen background-color-groen px-3 py-2 border-2 focus-visible:outline-2 focus-visible:outline-rose-700">
+                <input type="email" name="email" id="mail" autocomplete="email" required aria-describedby="mail-hulp" class="peer mt-1 w-full rounded-lg user-invalid:border-red-700 border-color-donkergroen background-color-groen px-3 py-2 border-2 focus-visible:outline-2 focus-visible:outline-rose-700">
                 <p id="mail-hulp" class="mt-1">Vul een e-mailadres in zoals naam@voorbeeld.be</p>
                 <p class="mt-1 hidden text-red-700 peer-user-invalid:block">Dit e-mailadres klopt niet. Vul het in zoals naam@voorbeeld.be</p>
             </div>
