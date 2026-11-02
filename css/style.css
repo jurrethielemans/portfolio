@@ -1,0 +1,31 @@
+.donkergroen {
+color: #165e23;
+}
+.groen {
+    color: #61ab6e
+}
+.lichtgroen {
+    color: #ADFFBD
+}
+footer{
+    background-color:#61ab6e
+}
+.background-color-groen {
+    background-color: #61ab6e;
+}
+.background-color-donkergroen {
+    background-color: #165e23;
+}
+.background-color-lichtgroen{
+    background-color: #9BD49E;
+}
+.border-color-donkergroen {
+    border-color: #165e23;
+}
+.text-color-groen {
+    text-emphasis-color: #61ab6e;
+}
+.outline-groen {
+    outline-style: solid;
+    outline-color: #61ab6e;
+}
