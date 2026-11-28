@@ -7,13 +7,14 @@
     <meta name="description" content="Hier vind je al mijn projecten die ik tijdens mijn schoolcarrière tot een goed einde heb gebracht.">
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/portfolio.js"></script>
 </head>
-<body>
+<body class="min-h-screen">
     <a href="#inhoud" class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:outline-rose-700">Ga naar de inhoud</a>
     <header class="flex flex-wrap items-center sm:place-content-between border-b border-color-donkergroen mx-4 my-2 justify-between">
         <img class="w-30 mx-8 my-4" src="images/logo.png" alt="Logo">
         <input type="checkbox" id="menu-knop" class="peer sr-only">
-            <label for="menu-knop" class="cursor-pointer rounded-lg border donkergroen border-gray-300 px-3 py-3 mx-8 peer-focus-visible:outline-2 sm:hidden">
+            <label for="menu-knop" class="cursor-pointer rounded-lg border donkergroen border-color-donkergroen px-3 py-3 mx-8 peer-focus-visible:outline-2 sm:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" 
             viewBox="0 0 24 24" 
             fill="currentColor" 
@@ -25,7 +26,19 @@
         <nav class="px-4 mx-4 my-2 hidden w-full peer-checked:block sm:block sm:w-auto">
             <ul class="flex flex-col sm:flex-row sm:justify-between gap-2">
                 <li><a href="index.html" class="block px-3 py-2 font-bold text-3xl groen rounded-lg uppercase focus-visible:outline-2 focus-visible:outline-rose-700">Home</a></li>
-                <li><a href="portfolio.html" class="block px-3 py-2 font-bold text-3xl donkergroen uppercase rounded-lg focus-visible:outline-2 focus-visible:outline-rose-700">Portfolio</a></li>
+                <li class="group relative"><a href="portfolio.html" class="block px-3 py-2 font-bold text-3xl donkergroen uppercase rounded-lg focus-visible:outline-2 focus-visible:outline-rose-700">Portfolio</a>
+                <ul class="absolute left-0 top-full z-10 hidden min-w-56 rounded-lg border border-color-donkergroen bg-white p-2 shadow group-hover:block group-focus-within:block">
+                    <li><a href="webwiz.html" class="block rounded px-3 groen py-2 font-bold hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-rose-700">WebWiz</a>
+                    </li>
+                    <li><a href="project2.html" class="block groen rounded px-3 py-2 font-bold hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-rose-700">project 2</a>
+                    </li>
+                    <li><a href="project3.html" class="block rounded px-3 py-2 groen font-bold hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-rose-700">Project 3</a>
+                    </li>
+                    <li><a href="project4.html" class="block rounded px-3 py-2 groen font-bold hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-rose-700">Project 4</a></li>
+                    <li><a href="project5.html" class="block rounded px-3 py-2 groen font-bold hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-rose-700">Project 5</a></li>
+                    <li><a href="project6.html" class="block rounded px-3 py-2 groen font-bold hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-rose-700">Project 6</a></li>
+                </ul>
+                </li>
                 <li><a href="contact.html" class="block px-3 py-2 font-bold text-3xl groen uppercase rounded-lg focus-visible:outline-2 focus-visible:outline-rose-700">Contact</a></li>
             </ul>
         </nav>
@@ -34,31 +47,19 @@
      
     <main class="max-w-2xl mx-auto p-4 mb-4 col-span-2 items-center" id="inhoud">
         <h1 class="mx-4 mt-2 mb-4 donkergroen text-4xl font-bold">Portfolio</h1>
-        <article class=" mx-4 grid grid-cols-1 sm:grid-cols-2 grid-wrap gap-4">
-            <a href="project.html" class="group w-full bg-[url(../images/portfoliofoto1.jpg)] bg-cover hover:bg-gray-600 object-cover overflow-hidden bg-blend-multiply text-center transition duration-300 rounded-3xl p-30 focus-visible:outline-2 focus-visible:outline-rose-700">
-                <h2 class="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition duration-300">Project 1</h2></a>
-            <a href="project.html" class="group w-full bg-[url(../images/portfoliofoto2.jpg)] bg-cover hover:bg-gray-600 object-cover overflow-hidden bg-blend-multiply text-center transition duration-300 rounded-3xl py-30 focus-visible:outline-2 focus-visible:outline-rose-700">
-                <h2 class="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition duration-300">Project 2</h2></a>
-            <a href="projact.html" class="group w-full h-full bg-[url(../images/portfoliofoto3.jpg)] bg-cover hover:bg-gray-600 object-cover overflow-hidden bg-blend-multiply text-center transition duration-300 rounded-3xl py-30 focus-visible:outline-2 focus-visible:outline-rose-700">
-                <h2 class="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition duration-300">Project 3</h2></a>
-            <a href="project.html" class="group w-full h-full bg-[url(../images/portfoliofoto1.jpg)] bg-cover hover:bg-gray-600 object-cover overflow-hidden bg-blend-multiply text-center transition duration-300 rounded-3xl py-30 focus-visible:outline-2 focus-visible:outline-rose-700">
-                <h2 class="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition duration-300">Project 4</h2></a>
-            <a href="project.html" class="group w-full h-full bg-[url(../images/portfoliofoto2.jpg)] bg-cover hover:bg-gray-600 object-cover overflow-hidden bg-blend-multiply text-center transition duration-300 rounded-3xl py-30 focus-visible:outline-2 focus-visible:outline-rose-700">
-                <h2 class="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition duration-300">Project 5</h2></a>
-            <a href="project.html" class="group w-full h-full bg-[url(../images/portfoliofoto3.jpg)] bg-cover hover:bg-gray-600 object-cover overflow-hidden bg-blend-multiply text-center transition duration-300 rounded-3xl py-30 focus-visible:outline-2 focus-visible:outline-rose-700">
-                <h2 class="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition duration-300">Project 6</h2></a>
-            
-        </article>
+        <p id="melding" role="status" class="mt-4 text-gray-700">Projecten laden…</p>
+        <div id="lijst" class="mt-4 grid gap-6 sm:grid-cols-2"></div>
+
     </main>
     <aside class="mx-8 my-4 p-4">
-        <h2 class="text-xl font-semibold">Projecten</h2>
+        <h2 class="text-xl font-semibold">Vaardigheden</h2>
         <ul class="list-disc list-inside my-4">
-            <li><a href="project.html" class=" p-1 rounded-lgfocus-visible:outline-2 focus-visible:outline-rose-700">Project1</a></li>
-            <li><a href="#" class=" p-1 rounded-lgfocus-visible:outline-2 focus-visible:outline-rose-700">Project2</a></li>
-            <li><a href="#" class=" p-1 rounded-lgfocus-visible:outline-2 focus-visible:outline-rose-700">Project3</a></li>
-            <li><a href="#" class=" p-1 rounded-lgfocus-visible:outline-2 focus-visible:outline-rose-700">Project4</a></li>
-            <li><a href="#" class=" p-1 rounded-lgfocus-visible:outline-2 focus-visible:outline-rose-700">Project5</a></li>
-            <li><a href="#" class=" p-1 rounded-lgfocus-visible:outline-2 focus-visible:outline-rose-700">Project6</a></li>
+            <li class="p-1">HTML & CSS</li>
+            <li class="p-1">Linux</li>
+            <li class="p-1">Windows Server</li>
+            <li class="p-1">Python</li>
+            <li class="p-1">Powershell</li>
+            <li class="p-1">Packet Tracer</li>
         </ul>
 
     </aside>
@@ -67,5 +68,16 @@
         <p class="">&copy; Jurre Thielemans 2026</p>
         <a class="sm:float-right px-4 py-2 rounded-lg focus-visible:outline-2 focus-visible:outline-rose-700" href="portfolio.html">Terug naar boven</a>
     </footer>
+    <template id="sjabloon">
+        <article class="rounded-xl border-2 border-color-donkergroen">
+            <div class="p-4">
+                <h2 data-veld="titel" class="text-lg font-bold"></h2>
+                <p data-veld="samenvatting" class="mt-2 text-gray-700"></p>
+                <img data-veld="afbeelding" src="images/placeholder.png" alt="" class="h-40 w-full mt-3 rounded-lg object-cover">
+                <a data-veld="link" href="#" class="mt-3 inline-block donkergroen underline focus-visible:outline-2 focus-visible:outline-rose-700"></a>
+            </div>
+        </article>
+    </template>
+
 </body>
 </html>

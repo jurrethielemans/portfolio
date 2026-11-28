@@ -1,0 +1,44 @@
+[
+{
+"titel": "Webwiz opdracht",
+"samenvatting": "In deze opdracht tekende we het netwerk uit voor een klein groeiend bedrijf.",
+"afbeelding": "images/bekabelingsplan.png",
+"alt": "Patchplan",
+"link": "webwiz.html"
+},
+{
+"titel": "Project 2",
+"samenvatting": "De nieuwste projecten komen weldra online",
+"afbeelding": "images/portfoliofoto2.jpg",
+"alt": "Beschrijving van wat er op de foto staat",
+"link": "project.html"
+},
+{
+"titel": "Project 3",
+"samenvatting": "De nieuwste projecten komen weldra online",
+"afbeelding": "images/portfoliofoto3.jpg",
+"alt": "Beschrijving van wat er op de foto staat",
+"link": "project.html"
+},
+{
+"titel": "Project 4",
+"samenvatting": "De nieuwste projecten komen weldra online",
+"afbeelding": "images/portfoliofoto1.jpg",
+"alt": "Beschrijving van wat er op de foto staat",
+"link": "project.html"
+},
+{
+"titel": "Project 5",
+"samenvatting": "De nieuwste projecten komen weldra online",
+"afbeelding": "images/portfoliofoto2.jpg",
+"alt": "Beschrijving van wat er op de foto staat",
+"link": "project.html"
+},
+{
+"titel": "Project 6",
+"samenvatting": "De nieuwste projecten komen weldra online",
+"afbeelding": "images/portfoliofoto3.jpg",
+"alt": "Beschrijving van wat er op de foto staat",
+"link": "project.html"
+}
+]
